@@ -1,0 +1,19 @@
+# string concatenation (aka how to put strings together)
+# suppose I want to create a string that says "subscribe to _____"
+
+ # youtuber = "" # some string variable
+
+# we create a f string 
+# print(f"subscribe to {youtuber}")
+
+
+playername = input ("Playername: ")
+club = input ("TeamName:")
+competition = input ("CompetitionName:")
+
+madlib = f"My favourite football player is {playername} \
+because he is so talented and skilfull. He played also for \
+my fav club which is {club}. He did also the winner \
+goal in the {competition}."
+
+print(madlib)
